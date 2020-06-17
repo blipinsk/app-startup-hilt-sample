@@ -7,15 +7,11 @@ import javax.inject.Singleton
 @Singleton
 class BugReportingService @Inject constructor() {
 
-    private var internalIsInitialized = false
-
-    val isInitialized: Boolean
-        get() {
-            return internalIsInitialized
-        }
+    var isInitialized: Boolean = false
+        private set
 
     //dummy initialization implementation
     fun initialize() {
-        internalIsInitialized = true
+        isInitialized = true
     }
 }

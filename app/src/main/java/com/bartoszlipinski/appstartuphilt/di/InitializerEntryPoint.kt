@@ -13,6 +13,7 @@ import dagger.hilt.android.components.ApplicationComponent
 interface InitializerEntryPoint {
 
     companion object {
+        //a helper method to resolve the InitializerEntryPoint from the context
         fun resolve(context: Context): InitializerEntryPoint {
             val appContext = context.applicationContext ?: throw IllegalStateException()
             return EntryPointAccessors.fromApplication(
