@@ -1,7 +1,7 @@
 App Startup 🚀 + Hilt 🗡
 ===============
 
-*This contains a sample code on how combine the two newest libraries from Google's Jetpack: Hilt 🗡 & App Startup 🚀,* **to provide dependencies to `Initializers`**
+*This contains a sample code on how to combine the two libraries from Google's Jetpack: Hilt 🗡 & App Startup 🚀,* **to provide dependencies to `Initializers`**
 
 ---
 
